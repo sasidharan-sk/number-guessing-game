@@ -41,7 +41,7 @@ while count<chances:
    
 
 # if user has no chances left
-if count>=chances:
+if count>chances:
         print('\n NO CHANCES LEFT')
         print(f'\n The number is : {a}')
         print('\n -- BETTER LUCK NEXT TIME --')
